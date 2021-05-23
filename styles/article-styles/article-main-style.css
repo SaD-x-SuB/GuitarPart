@@ -194,6 +194,7 @@ footer{
 
 @media(max-width: 1200px) and (min-width: 701px){
     
+    
     .pannel{
          width: 300px;
     height: 400px;
@@ -307,18 +308,26 @@ nav{
 }
      
     
+      main{margin: auto;}
+    
 }
 
 @media(max-width: 700px){
+    .article-pannels{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+        align-items: center;
+}
     
      .pannel{
-         width: 180px;
-    height: 200px;
+         width: 300px;
+    height: 150px;
     background-position: center;
     }
     .pannel-long{
-         width: 200px;
-    height: 400px;
+         width: 300px;
+    height: 150px;
     background-position: center;
     }
     
@@ -328,7 +337,7 @@ nav{
     text-shadow:  1px 1px 30px black;
    background: rgb(94,102,104);
 background: radial-gradient(circle, rgba(94,102,104,0.9500175070028011) 1%, rgba(94,102,104,0.9360119047619048) 6%, rgba(94,102,104,0.8827906162464986) 15%, rgba(94,102,104,0.7147233893557423) 28%, rgba(94,102,104,0.5158438375350141) 43%, rgba(94,102,104,0.27494747899159666) 56%, rgba(94,102,104,0) 68%, rgba(94,102,104,0) 86%, rgba(94,102,104,0) 100%);
-    padding: 110px 80px;
+    padding: 60px 90px;
     transition: 0.5s;
     
 }
@@ -424,5 +433,5 @@ nav{
 }
     
     
-    
+      main{margin: auto;}
 }
