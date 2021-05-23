@@ -561,7 +561,7 @@ nav{
     border: 5px solid #252b31;
 }
      
-    
+     main{margin: auto;}
 }
 
 @media(max-width: 700px){
@@ -621,7 +621,7 @@ h4.bodytxt1{
     padding-bottom: 25px;
 
 }
-    
+   main{margin: auto;}
     
     
  .nav-button-back{
@@ -659,7 +659,7 @@ background: linear-gradient(180deg, rgba(94,102,104,0.25) 0%, rgba(94,102,104,0.
     font-size: 34px;
     text-align: center;
     position: relative;
-    top: 120px;
+    top: 50px;
     margin: 0px;
 }
  
