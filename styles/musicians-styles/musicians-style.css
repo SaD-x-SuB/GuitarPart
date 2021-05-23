@@ -181,6 +181,7 @@ p{margin: 0px;}
 
 .ico:hover{
     background-color: #252b31;
+    
 }
 .ico:active{
     height: 650px;
@@ -331,7 +332,68 @@ nav{
 
 @media(max-width: 700px){
     
-      .imgs{
+    .ico:hover{
+        
+   
+           background-color: #252b31;
+         animation: ico-ani 0.8s 1;
+    animation-fill-mode: forwards;
+ 
+    
+}
+.ico:active{
+/*
+    height: 650px;
+    width: 400px;
+   margin:10px;
+   color: #f6fafb;
+      font-size: 20px;
+
+*/
+      height: 400px;
+        width: 300px;
+        margin: 50px;
+        padding: 10px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        font-size: 1px;
+        font-family: 'Russo One', sans-serif;
+        color: rgba(10, 10, 10, 0);
+   
+ 
+}
+    @keyframes ico-ani{
+        from{  
+
+        height: 400px;
+        width: 300px;
+        margin: 50px;
+        padding: 10px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        font-size: 1px;
+        font-family: 'Russo One', sans-serif;
+        color: rgba(10, 10, 10, 0);
+   
+
+ 
+           
+        }
+        to{
+            height: 650px;
+            width: 400px;
+           margin:10px;
+           color: #f6fafb;
+          font-size: 20px;
+            
+        }
+        
+    }
+
+    
+.imgs{
     display: flex;
     justify-content: center;
     height: 150px;   
