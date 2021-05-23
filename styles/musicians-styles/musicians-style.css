@@ -1,0 +1,442 @@
+body{
+    margin: 0px;
+    
+    background-color: #5e6668;    
+}
+/* \/ \/ \/для HEADER \/ \/ \/ */
+.main-header{
+    width: 100%;
+    height: 760px;
+    margin-bottom: 50px;
+}
+
+.header-img{
+    background-image: url("../../img/musicians/musician-main-img.jpg");
+    width: 100%;
+    height: 760px;
+    background-size: cover;
+    
+}
+.header-opasity-color{
+ background: rgb(94,102,104);
+background: linear-gradient(180deg, rgba(94,102,104,0.25) 0%, rgba(94,102,104,0.5) 20%, rgba(94,102,104,0.75) 45%, rgba(94,102,104,0.9) 70%, rgba(94,102,104,1) 100%);
+    width: 100%;
+    height: 770px;
+   position: absolute;
+/*   bottom: 159px;*/
+    
+    
+}
+.header-txt{
+    color: #f6fafb;
+    font-family: 'IBM Plex Sans', sans-serif;
+   text-shadow: 1px 1px 2px black;
+    font-size: 84px;
+    text-align: center;
+    position: relative;
+    top: 230px;
+    margin: 0px;
+}
+
+
+
+
+nav{
+/*    position: fixed;*/
+/*    top:100%;*/
+    width: 100%;
+    height: 140px;
+    background-color: #252b31;
+    
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+/*    border-radius: 10px;*/
+}
+.nav-button{
+    width: 200px;
+    height: 65px;
+/*   border: 5px solid white;*/
+    border-bottom: 5px solid white;
+    border-top: 5px solid white;
+/*    border-radius: 15px;*/
+    
+    margin: 0 50px;
+    text-decoration: none;
+    color: #f6fafb;
+    font-size: 32px;
+    text-align: center;
+    vertical-align: center;
+    transition: 0.5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.nav-button:hover{
+    background-color: #f6fafb;
+    color: #252b31;
+/*     height: 75px;*/
+/*    border: 10px solid #f6fafb;*/ 
+    height: 130px;
+}
+
+.nav-button:active{
+    border: 5px solid #252b31;
+}
+.nav-button-back{
+    width: 200px;
+    height: 65px;
+/*   border: 5px solid white;*/
+    border-bottom: 5px solid white;
+    border-top: 5px solid white;
+/*    border-radius: 15px;*/
+    
+    margin: 50px 50px;
+    text-decoration: none;
+    color: #f6fafb;
+    font-size: 32px;
+    text-align: center;
+    vertical-align: center;
+    transition: 0.5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-button-back:hover{
+    background-color: #f6fafb;
+    color: #252b31;
+/*     height: 75px;*/
+/*    border: 10px solid #f6fafb;*/ 
+    width: 400px;
+}
+
+
+main{
+    width: 90%;
+    margin: auto;
+/*    margin-bottom: 100px;*/
+    padding: 20px;
+/*    border-right: 5px solid #d49c6b;*/
+/*    border-left: 5px solid #d49c6b;*/
+}
+
+
+.icons-container{
+    display: flex;
+    flex-wrap: wrap;
+     justify-content: center;
+}
+
+.ico{
+    height: 400px;
+    width: 300px;
+/*    border-radius: 250px;*/
+    margin: 50px;
+    padding: 10px;
+/*    background-color: aliceblue;*/
+    display: flex;
+/*    justify-content: center;*/
+    align-items: center;
+    flex-direction: column;
+/*    text-align: center;*/
+    font-size: 1px;
+    font-family: 'Russo One', sans-serif;
+    color: rgba(10, 10, 10, 0);
+    transition: 0.8s;
+/*    border: 2px solid aliceblue;*/  
+}
+
+.ico .name{
+     font-size: 40px;
+    color: #f6fafb;
+     text-shadow: 1px 1px 1px black;
+}
+.img{
+     height: 250px;
+    width: 250px;
+    border-radius: 250px;
+    margin: 10px;
+/*    background-color: blue;*/
+}
+p{margin: 0px;}
+
+.i1{
+    background-image: url(../../img/musicians/Nagart.jpg);
+    background-size: cover;
+    background-position: center; 
+}
+.i2{background-image: url(../../img/musicians/operation.jpg);
+    background-size: cover;
+    background-position: center;  }
+.i3{background-image: url(../../img/musicians/daite.jpg);
+    background-size: cover;
+    background-position: center;}
+.i4{background-image: url(../../img/musicians/dorogi.jpg);
+    background-size: cover;
+    background-position: center;}
+
+.ico:hover{
+    background-color: #252b31;
+}
+.ico:active{
+    height: 650px;
+    width: 400px;
+   margin:10px;
+   color: #f6fafb;
+      font-size: 20px;
+    
+}
+
+
+.main-footer{
+    margin-top: 20px;
+    height: 100px;
+    background-color: #d49c6b;
+}
+.foo-txt{
+    font-family: 'IBM Plex Sans', sans-serif;
+     color: #f6fafb;
+    font-size: 24px;
+}
+.foo-txt-2{
+    text-align: right;
+    font-family: 'IBM Plex Sans', sans-serif;
+     color: #f6fafb;
+    font-size: 24px;
+}
+
+
+
+
+
+
+/*================================================================*/
+
+
+
+
+@media(max-width: 1200px) and (min-width: 701px){
+    
+ 
+    .imgs{
+    display: flex;
+    justify-content: center;
+    height: 350px;   
+    width: 700px;
+/*
+    background-attachment: fixed; 
+    background-size: contain; 
+*/
+    margin: auto;
+    border-radius: 40px;
+}
+ 
+ .ico{
+    text-align: center;
+}
+    
+    
+.nav-button-back{
+     margin: auto;
+}
+    
+.main-header{
+    width: 100%;
+    height: 500px;
+    margin-bottom: 20px;
+}
+
+.header-img{
+    background-image: url("../../img/musicians/musician-main-img.jpg");
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+}
+
+.header-opasity-color{
+ background: rgb(94,102,104);
+background: linear-gradient(180deg, rgba(94,102,104,0.25) 0%, rgba(94,102,104,0.5) 20%, rgba(94,102,104,0.75) 45%, rgba(94,102,104,0.9) 70%, rgba(94,102,104,1) 100%);
+    width: 100%;
+    height: 500px;
+   position: absolute;
+/*   bottom: 159px;*/
+    
+}
+.header-txt{
+    color: #f6fafb;
+    font-family: 'IBM Plex Sans', sans-serif;
+   text-shadow: 1px 1px 2px black;
+    font-size: 55px;
+    text-align: center;
+    position: relative;
+    top: 140px;
+    margin: 0px;
+}
+ 
+nav{
+/*    position: fixed;*/
+/*    top:100%;*/
+    width: 100%;
+    height: 120px;
+    margin: auto;
+    background-color: #252b31;
+/*    margin-bottom: 100px;*/
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+/*    border-radius: 10px;*/
+}
+.nav-button{
+    width: 100px;
+    height: 60px;
+/*   border: 5px solid white;*/
+    border-bottom: 5px solid white;
+    border-top: 5px solid white;
+/*    border-radius: 15px;*/
+    
+    margin: 10px 30px;
+    text-decoration: none;
+    color: #f6fafb;
+    font-size: 20px;
+    text-align: center;
+    vertical-align: center;
+    transition: 0.5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.nav-button:hover{
+    background-color: #f6fafb;
+    color: #252b31;
+    width: 200px;
+/*     height: 75px;*/
+/*    border: 10px solid #f6fafb;*/ 
+    height: 60px;
+}
+
+.nav-button:active{
+    border: 5px solid #252b31;
+}
+     
+    
+}
+
+@media(max-width: 700px){
+    
+      .imgs{
+    display: flex;
+    justify-content: center;
+    height: 150px;   
+    width: 300px;
+/*
+    background-attachment: fixed; 
+    background-size: contain; 
+*/
+    margin: auto;
+    border-radius: 40px;
+}
+   
+ .ico{
+    text-align: center;
+}
+    
+    
+    
+ .nav-button-back{
+    margin: auto;
+ }
+    
+.main-header{
+    width: 100%;
+    height: 300px;
+    margin-bottom: 20px;
+}
+
+.header-img{
+   background-image: url("../../img/musicians/musician-main-img.jpg");
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.header-opasity-color{
+ background: rgb(94,102,104);
+background: linear-gradient(180deg, rgba(94,102,104,0.25) 0%, rgba(94,102,104,0.5) 20%, rgba(94,102,104,0.75) 45%, rgba(94,102,104,0.9) 70%, rgba(94,102,104,1) 100%);
+    width: 100%;
+    height: 300px;
+   position: absolute;
+/*   bottom: 159px;*/
+    
+}
+.header-txt{
+    color: #f6fafb;
+    font-family: 'IBM Plex Sans', sans-serif;
+   text-shadow: 1px 1px 2px black;
+    font-size: 34px;
+    text-align: center;
+    position: relative;
+    top: 120px;
+    margin: 0px;
+}
+ 
+nav{
+/*    position: fixed;*/
+/*    top:100%;*/
+    width: 100%;
+    height: 420px;
+    margin: auto;
+    background-color: #252b31;
+/*    margin-bottom: 100px;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+/*    border-radius: 10px;*/
+}
+.nav-button{
+    width: 100px;
+    height: 60px;
+/*   border: 5px solid white;*/
+    border-bottom: 5px solid white;
+    border-top: 5px solid white;
+/*    border-radius: 15px;*/
+    
+    margin: 10px 30px;
+    text-decoration: none;
+    color: #f6fafb;
+    font-size: 20px;
+    text-align: center;
+    vertical-align: center;
+    transition: 0.5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.nav-button:hover{
+    background-color: #f6fafb;
+    color: #252b31;
+    width: 200px;
+/*     height: 75px;*/
+/*    border: 10px solid #f6fafb;*/ 
+    height: 60px;
+}
+
+.nav-button:active{
+    border: 5px solid #252b31;
+}
+    
+    
+    
+}

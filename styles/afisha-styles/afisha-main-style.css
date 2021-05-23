@@ -1,0 +1,422 @@
+body{
+    margin: 0px;
+    
+    background-color: #5e6668;    
+}
+/* \/ \/ \/для HEADER \/ \/ \/ */
+.main-header{
+    width: 100%;
+    height: 760px;
+    margin-bottom: 50px;
+}
+
+.header-img{
+    background-image: url("../../img/afisha/afisha-main-img.jpg");
+    width: 100%;
+    height: 760px;
+    background-size: cover;
+    
+}
+.header-opasity-color{
+ background: rgb(94,102,104);
+background: linear-gradient(180deg, rgba(94,102,104,0.25) 0%, rgba(94,102,104,0.5) 20%, rgba(94,102,104,0.75) 45%, rgba(94,102,104,0.9) 70%, rgba(94,102,104,1) 100%);
+    width: 100%;
+    height: 770px;
+   position: absolute;
+/*   bottom: 159px;*/
+    
+    
+}
+.header-txt{
+    color: #f6fafb;
+    font-family: 'IBM Plex Sans', sans-serif;
+   text-shadow: 1px 1px 2px black;
+    font-size: 84px;
+    text-align: center;
+    position: relative;
+    top: 230px;
+    margin: 0px;
+}
+
+
+
+
+nav{
+/*    position: fixed;*/
+/*    top:100%;*/
+    width: 100%;
+    height: 140px;
+    background-color: #252b31;
+    
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+/*    border-radius: 10px;*/
+}
+.nav-button{
+    width: 200px;
+    height: 65px;
+/*   border: 5px solid white;*/
+    border-bottom: 5px solid white;
+    border-top: 5px solid white;
+/*    border-radius: 15px;*/
+    
+    margin: 0 50px;
+    text-decoration: none;
+    color: #f6fafb;
+    font-size: 32px;
+    text-align: center;
+    vertical-align: center;
+    transition: 0.5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.nav-button:hover{
+    background-color: #f6fafb;
+    color: #252b31;
+/*     height: 75px;*/
+/*    border: 10px solid #f6fafb;*/ 
+    height: 130px;
+}
+
+.nav-button:active{
+    border: 5px solid #252b31;
+}
+.nav-button-back{
+    width: 200px;
+    height: 65px;
+/*   border: 5px solid white;*/
+    border-bottom: 5px solid white;
+    border-top: 5px solid white;
+/*    border-radius: 15px;*/
+    
+    margin: 50px 50px;
+    text-decoration: none;
+    color: #f6fafb;
+    font-size: 32px;
+    text-align: center;
+    vertical-align: center;
+    transition: 0.5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-button-back:hover{
+    background-color: #f6fafb;
+    color: #252b31;
+/*     height: 75px;*/
+/*    border: 10px solid #f6fafb;*/ 
+    width: 400px;
+}
+
+
+main{
+    width: 90%;
+    margin: auto;
+/*    margin-bottom: 100px;*/
+    padding: 20px;
+/*    border-right: 5px solid #d49c6b;*/
+/*    border-left: 5px solid #d49c6b;*/
+}
+
+
+.consert-container{
+    
+   display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+}
+.consert{
+    width: 500px;
+    height: 400px;
+    margin: 20px;
+    padding: 5px;
+    background-color: white;
+    text-decoration: none;
+    transition: 0.5s;  
+    color: rgba(10, 10, 10, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    font-family: 'Russo One', sans-serif;
+}
+.c1{ background-image: url(../../img/afisha/punk-rupor.jpg);
+    background-size: cover;
+    background-position: center;}
+.c2{ background-image: url(../../img/afisha/panki-v-gorode.jpg);
+    background-size: cover;
+    background-position: center;}
+.c3{background-image: url(../../img/afisha/Dobrofest.jpg);
+    background-size: cover;
+    background-position: center;}
+.c4{background-image: url(../../img/afisha/nashestvie.jpg);
+    background-size: cover;
+    background-position: center;}
+.c5{background-image: url(../../img/afisha/CHernozyom.jpg);
+    background-size: cover;
+    background-position: center;}
+.c6{background-image: url(../../img/afisha/kidsrockfest.jpg);
+    background-size: cover;
+    background-position: center;}
+
+.c1:hover{ background-image: url(../../img/afisha/blur/punk-rupor.jpg);
+    background-size: cover;
+    background-position: center;}
+.c2:hover{ background-image:url(../../img/afisha/blur/panki-v-gorode.jpg);
+    background-size: cover;
+    background-position: center;}
+.c3:hover{background-image: url(../../img/afisha/blur/Dobrofestt.jpg);
+    background-size: cover;
+    background-position: center;}
+.c4:hover{background-image: url(../../img/afisha/blur/nashestvie.jpg);
+    background-size: cover;
+    background-position: center;}
+.c5:hover{background-image: url(../../img/afisha/blur/CHernozyom.jpg);
+    background-size: cover;
+    background-position: center;}
+.c6:hover{background-image: url(../../img/afisha/blur/kidsrockfest.jpg);
+    background-size: cover;
+    background-position: center;}
+
+
+.consert:hover{
+    width: 550px;
+    height: 400px;
+    margin: 20px;
+/*    font-family: 'IBM Plex Sans', sans-serif;*/
+/*    font-family: 'Ubuntu Condensed', sans-serif;*/
+   
+/*font-family: 'Ubuntu Condensed', sans-serif;*/
+    
+    font-size: 20px;
+/*    color: rgba(235, 128, 50, 100);*/
+    color: 	rgb(255, 210, 0);
+/*    color: rgba(0, 0, 0, 100);*/
+    text-shadow: 1px 1px 1px black;
+}
+
+
+.consert-name-text{
+    font-size: 40px;
+    color: #d49c6b;
+    text-shadow: 1px 1px 1px black
+}
+
+
+
+.main-footer{
+    margin-top: 20px;
+    height: 100px;
+    background-color: #d49c6b;
+}
+.foo-txt{
+    font-family: 'IBM Plex Sans', sans-serif;
+     color: #f6fafb;
+    font-size: 24px;
+}
+.foo-txt-2{
+    text-align: right;
+    font-family: 'IBM Plex Sans', sans-serif;
+     color: #f6fafb;
+    font-size: 24px;
+}
+
+
+
+@media(max-width: 1200px) and (min-width: 701px){
+    
+    .consert{
+        font-size: 15px;
+    }
+    
+    .nav-button-back{
+        margin: auto;
+    }
+    
+.main-header{
+    width: 100%;
+    height: 500px;
+    margin-bottom: 20px;
+}
+
+.header-img{
+    background-image: url("../../img/afisha/afisha-main-img.jpg");
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+}
+
+.header-opasity-color{
+ background: rgb(94,102,104);
+background: linear-gradient(180deg, rgba(94,102,104,0.25) 0%, rgba(94,102,104,0.5) 20%, rgba(94,102,104,0.75) 45%, rgba(94,102,104,0.9) 70%, rgba(94,102,104,1) 100%);
+    width: 100%;
+    height: 500px;
+   position: absolute;
+/*   bottom: 159px;*/
+    
+}
+.header-txt{
+    color: #f6fafb;
+    font-family: 'IBM Plex Sans', sans-serif;
+   text-shadow: 1px 1px 2px black;
+    font-size: 55px;
+    text-align: center;
+    position: relative;
+    top: 200px;
+    margin: 0px;
+}
+ 
+nav{
+/*    position: fixed;*/
+/*    top:100%;*/
+    width: 100%;
+    height: 120px;
+    margin: auto;
+    background-color: #252b31;
+/*    margin-bottom: 100px;*/
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+/*    border-radius: 10px;*/
+}
+.nav-button{
+    width: 100px;
+    height: 60px;
+/*   border: 5px solid white;*/
+    border-bottom: 5px solid white;
+    border-top: 5px solid white;
+/*    border-radius: 15px;*/
+    
+    margin: 10px 30px;
+    text-decoration: none;
+    color: #f6fafb;
+    font-size: 20px;
+    text-align: center;
+    vertical-align: center;
+    transition: 0.5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.nav-button:hover{
+    background-color: #f6fafb;
+    color: #252b31;
+    width: 200px;
+/*     height: 75px;*/
+/*    border: 10px solid #f6fafb;*/ 
+    height: 60px;
+}
+
+.nav-button:active{
+    border: 5px solid #252b31;
+}
+     
+    
+}
+
+@media(max-width: 700px){
+    
+     .consert{
+        font-size: 15px;
+    }
+    .nav-button-back{
+        margin: auto;
+    }
+    
+.main-header{
+    width: 100%;
+    height: 300px;
+    margin-bottom: 20px;
+}
+
+.header-img{
+    background-image: url("../../img/afisha/afisha-main-img.jpg");
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.header-opasity-color{
+ background: rgb(94,102,104);
+background: linear-gradient(180deg, rgba(94,102,104,0.25) 0%, rgba(94,102,104,0.5) 20%, rgba(94,102,104,0.75) 45%, rgba(94,102,104,0.9) 70%, rgba(94,102,104,1) 100%);
+    width: 100%;
+    height: 300px;
+   position: absolute;
+/*   bottom: 159px;*/
+    
+}
+.header-txt{
+    color: #f6fafb;
+    font-family: 'IBM Plex Sans', sans-serif;
+   text-shadow: 1px 1px 2px black;
+    font-size: 34px;
+    text-align: center;
+    position: relative;
+    top: 120px;
+    margin: 0px;
+}
+ 
+nav{
+/*    position: fixed;*/
+/*    top:100%;*/
+    width: 100%;
+    height: 420px;
+    margin: auto;
+    background-color: #252b31;
+/*    margin-bottom: 100px;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+/*    border-radius: 10px;*/
+}
+.nav-button{
+    width: 100px;
+    height: 60px;
+/*   border: 5px solid white;*/
+    border-bottom: 5px solid white;
+    border-top: 5px solid white;
+/*    border-radius: 15px;*/
+    
+    margin: 10px 30px;
+    text-decoration: none;
+    color: #f6fafb;
+    font-size: 20px;
+    text-align: center;
+    vertical-align: center;
+    transition: 0.5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.nav-button:hover{
+    background-color: #f6fafb;
+    color: #252b31;
+    width: 200px;
+/*     height: 75px;*/
+/*    border: 10px solid #f6fafb;*/ 
+    height: 60px;
+}
+
+.nav-button:active{
+    border: 5px solid #252b31;
+}
+    
+    
+    
+}

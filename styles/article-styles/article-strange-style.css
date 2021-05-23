@@ -1,0 +1,499 @@
+body{
+    margin: 0px;
+    
+    background-color: #5e6668;    
+}
+/* \/ \/ \/для HEADER \/ \/ \/ */
+header{
+    width: 100%;
+    height: 760px;
+    margin-bottom: 50px;
+}
+
+.header-img{
+    background-image: url("../../img/article/strage-guitar/main-strange-img.jpg");
+    width: 100%;
+    height: 760px;
+    background-size: cover;
+}
+
+.header-opasity-color{
+ background: rgb(94,102,104);
+background: linear-gradient(180deg, rgba(94,102,104,0.25) 0%, rgba(94,102,104,0.5) 20%, rgba(94,102,104,0.75) 45%, rgba(94,102,104,0.9) 70%, rgba(94,102,104,1) 100%);
+    width: 100%;
+    height: 770px;
+   position: absolute;
+/*   bottom: 159px;*/
+    
+    
+    
+}
+.header-txt{
+    color: #f6fafb;
+    font-family: 'IBM Plex Sans', sans-serif;
+   text-shadow: 1px 1px 2px black;
+    font-size: 84px;
+    text-align: center;
+    position: relative;
+    top: 230px;
+    margin: 0px;
+}
+/* \/ \/ \/ Для nav \/ \/ \/ */
+
+nav{
+/*    position: fixed;*/
+/*    top:100%;*/
+    width: 100%;
+    height: 140px;
+    margin: auto;
+    background-color: #252b31;
+/*    margin-bottom: 100px;*/
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+/*    border-radius: 10px;*/
+}
+.nav-button{
+    width: 200px;
+    height: 65px;
+/*   border: 5px solid white;*/
+    border-bottom: 5px solid white;
+    border-top: 5px solid white;
+/*    border-radius: 15px;*/
+    
+    margin: 0 50px;
+    text-decoration: none;
+    color: #f6fafb;
+    font-size: 32px;
+    text-align: center;
+    vertical-align: center;
+    transition: 0.5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.nav-button:hover{
+    background-color: #f6fafb;
+    color: #252b31;
+/*     height: 75px;*/
+/*    border: 10px solid #f6fafb;*/ 
+    height: 130px;
+}
+
+.nav-button:active{
+    border: 5px solid #252b31;
+}
+
+/* \/ \/ \/ Для main \/ \/ \/ */
+
+
+article{
+    margin: 30px;
+}
+
+main{
+    width: 90%;
+    margin: auto;
+/*    margin-bottom: 100px;*/
+    padding: 20px;
+    border-right: 5px solid #d49c6b;
+    border-left: 5px solid #d49c6b;
+}
+.maintxt-h1{
+    text-align: center;
+    font-family: 'IBM Plex Sans', sans-serif;
+     color: #f6fafb;
+    font-size: 46px;
+}
+.maintxt-p{
+    text-align: center;
+    font-family: 'IBM Plex Sans', sans-serif;
+     color: #f6fafb;
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+
+p{
+    font-size: 30px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: #f6fafb;
+    text-align: left;
+    margin-right: 5px;
+    margin-bottom: 0px;
+    
+}
+h4.bodytxt1{
+    font-size: 50px;
+    text-align: left;
+    font-family: 'IBM Plex Sans', sans-serif;
+/*    color: #4C4C4C;*/
+    text-shadow: 1px 1px 2px black;
+    margin-bottom: 10px;
+    margin-top:10px;
+    padding-bottom: 25px;
+    color: #f6fafb;
+}
+.imgs{
+    display: flex;
+    justify-content: center;
+    height: 500px;
+     
+    margin: 20px;
+    border-radius: 20px;
+}
+
+
+.nav-button-back{
+    width: 200px;
+    height: 65px;
+/*   border: 5px solid white;*/
+    border-bottom: 5px solid white;
+    border-top: 5px solid white;
+/*    border-radius: 15px;*/
+    
+    margin: 0 50px;
+    text-decoration: none;
+    color: #f6fafb;
+    font-size: 32px;
+    text-align: center;
+    vertical-align: center;
+    transition: 0.5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-button-back:hover{
+    background-color: #f6fafb;
+    color: #252b31;
+/*     height: 75px;*/
+/*    border: 10px solid #f6fafb;*/ 
+    width: 400px;
+}
+
+footer{
+/*    margin-top: 20px;*/
+    height: 100px;
+    background-color: #d49c6b;
+}
+.foo-txt{
+    font-family: 'IBM Plex Sans', sans-serif;
+     color: #f6fafb;
+    font-size: 24px;
+    margin: 0px;
+}
+.foo-txt-2{
+    text-align: right;
+    font-family: 'IBM Plex Sans', sans-serif;
+     color: #f6fafb;
+    font-size: 24px;
+}
+
+
+
+/*ААААААААДаптивность*/
+
+
+
+@media(max-width: 1200px) and (min-width: 701px){
+    
+ 
+    .imgs{
+    display: flex;
+    justify-content: center;
+    height: 350px;   
+    width: 700px;
+/*
+    background-attachment: fixed; 
+    background-size: contain; 
+*/
+    margin: auto;
+    border-radius: 40px;
+}
+ 
+    
+p{
+    font-size: 20px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: #f6fafb;
+    text-align: left;
+    margin-right: 5px;
+    margin-bottom: 0px;
+    
+}
+li{
+     font-size: 20px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: #f6fafb;
+    text-align: left;
+    margin-right: 5px;
+    margin-bottom: 0px;
+}
+.help1{
+    display: inline;
+    color: #f6fafb;
+}
+a.help1{
+     font-size: 20px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: #f6fafb;
+    text-align: left;
+    margin-right: 5px;
+    margin-right: 5px;
+    margin-bottom: 0px;
+    color: blue;
+}
+h4.bodytxt1{
+    font-size: 35px;
+    text-align: left;
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: floralwhite;
+    margin-bottom: 5px;
+    margin-top:5px;
+    padding-bottom: 25px;
+
+}
+    
+    
+    
+.nav-button-back{
+     margin: auto;
+}
+    
+header{
+    width: 100%;
+    height: 500px;
+    margin-bottom: 20px;
+}
+
+.header-img{
+    background-image: url("../../img/article/strage-guitar/main-strange-img.jpg");
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+}
+
+.header-opasity-color{
+ background: rgb(94,102,104);
+background: linear-gradient(180deg, rgba(94,102,104,0.25) 0%, rgba(94,102,104,0.5) 20%, rgba(94,102,104,0.75) 45%, rgba(94,102,104,0.9) 70%, rgba(94,102,104,1) 100%);
+    width: 100%;
+    height: 500px;
+   position: absolute;
+/*   bottom: 159px;*/
+    
+}
+.header-txt{
+    color: #f6fafb;
+    font-family: 'IBM Plex Sans', sans-serif;
+   text-shadow: 1px 1px 2px black;
+    font-size: 55px;
+    text-align: center;
+    position: relative;
+    top: 200px;
+    margin: 0px;
+}
+ 
+nav{
+/*    position: fixed;*/
+/*    top:100%;*/
+    width: 100%;
+    height: 120px;
+    margin: auto;
+    background-color: #252b31;
+/*    margin-bottom: 100px;*/
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+/*    border-radius: 10px;*/
+}
+.nav-button{
+    width: 100px;
+    height: 60px;
+/*   border: 5px solid white;*/
+    border-bottom: 5px solid white;
+    border-top: 5px solid white;
+/*    border-radius: 15px;*/
+    
+    margin: 10px 30px;
+    text-decoration: none;
+    color: #f6fafb;
+    font-size: 20px;
+    text-align: center;
+    vertical-align: center;
+    transition: 0.5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.nav-button:hover{
+    background-color: #f6fafb;
+    color: #252b31;
+    width: 200px;
+/*     height: 75px;*/
+/*    border: 10px solid #f6fafb;*/ 
+    height: 60px;
+}
+
+.nav-button:active{
+    border: 5px solid #252b31;
+}
+     
+    
+}
+
+@media(max-width: 700px){
+    
+      .imgs{
+    display: flex;
+    justify-content: center;
+    height: 150px;   
+    width: 300px;
+/*
+    background-attachment: fixed; 
+    background-size: contain; 
+*/
+    margin: auto;
+    border-radius: 40px;
+}
+   
+    
+    p{
+    font-size: 20px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: #f6fafb;
+    text-align: left;
+    margin-right: 5px;
+    margin-bottom: 0px;
+    
+}
+li{
+     font-size: 20px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: #f6fafb;
+    text-align: left;
+    margin-right: 5px;
+    margin-bottom: 0px;
+}
+.help1{
+    display: inline;
+    color: #f6fafb;
+}
+a.help1{
+     font-size: 20px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: #f6fafb;
+    text-align: left;
+    margin-right: 5px;
+    margin-right: 5px;
+    margin-bottom: 0px;
+    color: blue;
+}
+h4.bodytxt1{
+    font-size: 25px;
+    text-align: left;
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: floralwhite;
+    margin-bottom: 5px;
+    margin-top:5px;
+    padding-bottom: 25px;
+
+}
+    
+    
+    
+ .nav-button-back{
+    margin: auto;
+ }
+    
+header{
+    width: 100%;
+    height: 300px;
+    margin-bottom: 20px;
+}
+
+.header-img{
+     background-image: url("../../img/article/strage-guitar/main-strange-img.jpg");
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.header-opasity-color{
+ background: rgb(94,102,104);
+background: linear-gradient(180deg, rgba(94,102,104,0.25) 0%, rgba(94,102,104,0.5) 20%, rgba(94,102,104,0.75) 45%, rgba(94,102,104,0.9) 70%, rgba(94,102,104,1) 100%);
+    width: 100%;
+    height: 300px;
+   position: absolute;
+/*   bottom: 159px;*/
+    
+}
+.header-txt{
+    color: #f6fafb;
+    font-family: 'IBM Plex Sans', sans-serif;
+   text-shadow: 1px 1px 2px black;
+    font-size: 34px;
+    text-align: center;
+    position: relative;
+    top: 120px;
+    margin: 0px;
+}
+ 
+nav{
+/*    position: fixed;*/
+/*    top:100%;*/
+    width: 100%;
+    height: 420px;
+    margin: auto;
+    background-color: #252b31;
+/*    margin-bottom: 100px;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+/*    border-radius: 10px;*/
+}
+.nav-button{
+    width: 100px;
+    height: 60px;
+/*   border: 5px solid white;*/
+    border-bottom: 5px solid white;
+    border-top: 5px solid white;
+/*    border-radius: 15px;*/
+    
+    margin: 10px 30px;
+    text-decoration: none;
+    color: #f6fafb;
+    font-size: 20px;
+    text-align: center;
+    vertical-align: center;
+    transition: 0.5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.nav-button:hover{
+    background-color: #f6fafb;
+    color: #252b31;
+    width: 200px;
+/*     height: 75px;*/
+/*    border: 10px solid #f6fafb;*/ 
+    height: 60px;
+}
+
+.nav-button:active{
+    border: 5px solid #252b31;
+}
+    
+    
+    
+}
