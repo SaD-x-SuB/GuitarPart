@@ -418,6 +418,15 @@ nav{
     border-radius: 40px;
 }
    
+input{
+    width: 250px;
+    height: 30px;
+    font-size: 15px;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+    
     
  .new{
     margin: 10px;
